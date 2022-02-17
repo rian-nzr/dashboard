@@ -1,2 +1,4 @@
 
 node_modules
+
+#  npx tailwindcss -i ./src/index.css -o ./public/css/style.css --watch
