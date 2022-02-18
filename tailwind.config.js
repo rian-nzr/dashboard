@@ -32,8 +32,11 @@ module.exports = {
       colors: {
         'latar-b': '#F6F9FE',
         'latar-modal': 'rgba(0,0,0,0.4)',
-        'warna-btn': '#003366'
-
+        'warna-btn': '#003366',
+        'terkirim': '#EFFFF8',
+        't-terkirim': '#28C27D',
+        'terjadwal': '#FEF5CB',
+        't-terjadwal': '#D17407'
       }
     },
   },
