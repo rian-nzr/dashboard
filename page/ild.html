@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="/public/css/style.css">
+    <!-- link font -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Montserrat:wght@400;600;700&family=Nunito+Sans:wght@400;600;700&family=Poppins:wght@600&display=swap"
+        rel="stylesheet">
+
+
+</head>
+
+<body>
+    <div class=" flex space-x-2 w-full bg-latar-b ">
+        <div class="w-16 h-screen bg-white"></div>
+        <div class="w-full ">
+            <header class="px-10 h-tinggi bg-white flex flex-col justify-center">
+                <div class="h-3/5 flex flex-col justify-between ">
+
+                    <nav class="bg-grey-light rounded-lg w-full ">
+                        <ol class="list-reset flex font-inter text-14px text-gray-400 font-medium">
+                            <li>Dashboard</li>
+                            <li><span class="mx-2">></span></li>
+                            <li>Newsletter</li>
+                            <li><span class="mx-2">></span></li>
+                            <li class="text-gray-500 font-bold">Data</li>
+                        </ol>
+                    </nav>
+
+                    <p class="font-inter font-semibold text-12px text-gray-700"><span>
+                            < </span>Go Back </p>
+
+                    <div class="flex justify-between items-center">
+                        <h3 class="font-montserrat font-bold text-32px">create Newsletter</h3>
+                        <div class="flex items-center space-x-2">
+                            <button id="btnPreview" type="button"
+                                class=" px-4 py-1 border border-gray-300 text-gray-600 font-semibold  text-16px  hover:bg-black hover:bg-opacity-5 rounded flex items-center space-x-2 "><span>
+                                    Preview
+                                    File </span> <img src="/public/img/Icon.png" alt=""></button>
+                            <button id="btnPublish" type="button"
+                                class=" px-4 py-1 border border-gray-300 text-white font-semibold  text-16px  hover:bg-black hover:bg-opacity-5 rounded  bg-gray-400 flex items-center space-x-2 ">
+                                <span> Pulish
+                                    now </span> <img src="/public/img/01 align center.png" alt=""></button>
+                        </div>
+                    </div>
+                </div>
+
+            </header>
+
+
+
+
+            <div class="w-lebar mx-auto py-10 font-NunitoSans">
+                <h1 class="font-Poppins font-semibold  text-20px">Top Higlight</h1>
+
+                <div class="w-lebar mx-auto bg-white py-10 px-10 space-y-8 mt-5 font-NunitoSans rounded-lg">
+                    <div class="flex flex-col   space-y-3">
+                        <label for="">Subject Email</label>
+                        <input type="text" placeholder="Input subject email" class="bg-latar-b py-2 px-5 rounded ">
+                    </div>
+
+                    <div class="flex justify-between space-x-5">
+
+                        <div class="flex flex-col w-3/6  space-y-3">
+                            <label for="">Title Content</label>
+                            <input type="text" placeholder="Input title cover" class="bg-latar-b py-2 px-5 rounded ">
+                        </div>
+
+
+                        <div class="flex flex-col w-3/6 space-y-3">
+                            <label for="">Subtitle Content</label>
+                            <input type="text" placeholder="Input subtitle cover" class="bg-latar-b py-2 px-5 rounded ">
+                        </div>
+
+
+
+                    </div>
+
+
+                    <div class="border rounded">
+                        <div class="py-1 px-5 border-b">
+                            <img src="/public/img/image 4.png" alt="">
+                        </div>
+                        <textarea name="komentar" rows="10" placeholder="Komentar" class=" w-full"></textarea>
+
+                    </div>
+
+                    <div class="flex flex-col   space-y-3">
+                        <label for="">Link Read Analysis</label>
+                        <input type="text" placeholder="Input link" class="bg-latar-b py-2 px-5 rounded ">
+                    </div>
+
+
+
+
+
+                </div>
+
+            </div>
+            <div class="w-lebar mx-auto   font-NunitoSans ">
+                <p class="flex space-x-1 text-14px font-semibold "> <span class="underline">Add New </span> <img
+                        src="/public/img/Frame 5270.png" alt="">
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
