@@ -9,6 +9,7 @@ let btnSave = document.getElementById('btnSave')
 let closes = document.getElementsByClassName('close');
 
 btnPreview.onclick = function () {
+    console.log('tes:')
     modalPreview.style.display = 'block';
 }
 btnPublish.onclick = function () {
